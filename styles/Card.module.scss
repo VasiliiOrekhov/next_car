@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  border-radius: 8px;
+  padding: 27px 26px;
+  box-shadow: 0px 6px 32px #0e2a6029;
+  height: max-content;
+
+  .title {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: normal;
+    color: #303030;
+    margin-bottom: 6px;
+  }
+
+  .title span {
+    position: relative;
+    font-size: 12px;
+    color: #22bf86;
+    bottom: 3px;
+  }
+
+  .param {
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: normal;
+    color: #707b8c;
+  }
+
+  .imgContainer {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 19px 0 32px;
+
+    .img {
+      height: 198px;
+      object-fit: cover;
+      margin-right: 12px;
+      border-radius: 4px;
+    }
+  }
+
+  .carInfo {
+    display: flex;
+    justify-content: space-between;
+
+    .value {
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: normal;
+      color: #303030;
+      margin: 6px 0 16px;
+      :last-child {
+        margin: 6px 0 10px;
+      }
+    }
+
+    .value span {
+      color: #22bf86;
+    }
+
+    .carInfo_right {
+      max-height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: end;
+
+      .price {
+        right: 0;
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: normal;
+        color: #22bf86;
+      }
+
+      .price span {
+        color: #303030;
+      }
+
+      .button {
+        width: 182px;
+        height: 48px;
+        background: transparent linear-gradient(255deg, #11998e 0%, #38ef7d 100%) 0% 0% no-repeat
+          padding-box;
+        border-radius: 8px;
+        border: none;
+        font-size: 13px;
+        line-height: 13px;
+        font-weight: normal;
+        color: white;
+      }
+    }
+  }
+}
